@@ -1,0 +1,17 @@
+.container{
+    border: 2px solid green;
+}
+.gallery img{
+    width: 22%;
+    padding: 5px;
+}
+@media screen and (max-width : 480px) {
+    .gallery img{
+        width: 95%;
+    }
+}
+@media screen and (min-width: 480px) and (max-width :  720px) {
+    .gallery img{
+        width: 47%;
+    }
+}
