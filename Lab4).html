@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab#4 CSS</title>
+    <style>
+        .rotated {
+            width: 300px;
+            height: 70px;
+            background-color: yellow;
+            border: 2px solid black;
+        }
+
+.rotated:hover {
+            transform: rotate(180deg); /* Equal to rotateZ(180deg) */
+            background-color: yellow;
+    }
+.square{
+        width:  100px;
+        height: 100px;
+        background-color: blue;
+        transition: 2s;
+        transition-delay: 1px;
+        animation: mymove 2s infinite;
+    }
+@keyframes mymove {
+  50%{transform: rotate(180deg);}
+}
+.square:hover{  
+    width: 200px;
+    height: 200px;  
+}
+.pic img{
+    width: 300px;
+    height: auto;
+    filter: grayscale(100%);
+    filter: opacity(50%);
+}
+.pic img:hover{
+    
+    filter: blur(1px);
+   
+}
+
+
+
+.gallery img{
+    width: 22%;
+    padding: 5px;
+}
+@media screen and (max-width : 800px) {
+    .gallery img{
+        width: 22%;
+    }
+}
+@media screen and (min-width: 300px) and (max-width :  801px) {
+    .gallery img{
+        width: 47%;
+    }
+}
+@media screen and (max-width : 301px) {
+    .gallery img{
+        width: 95%;
+    }
+}
+    </style>
+</head>
+<body>
+    <h2>Q no # 1 </h2>
+    <div class="rotated">There is no one who loves pain it's self,who seeks after it and wants to have it, simply beacuse it is pain...</div>
+        <br>
+    <h2>Q no # 2 </h2>
+    <div class="square">
+    </div>
+    <h2>Q no # 3 </h2>
+    <div class="pic">
+        <img src="Friends.JPG" alt="Taimoor Akram 1147">
+    </div>
+
+    <br>
+    <div class="container">
+        <div class="gallery">
+            <img src="me.JPG" alt="me 1">
+            <img src="me.JPG" alt="me 2">
+            <img src="me.JPG" alt="me 3">
+            <img src="me.JPG" alt="me 4">
+        </div>
+    </div>
+</body>
+</html>
