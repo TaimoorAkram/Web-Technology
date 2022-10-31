@@ -1,0 +1,71 @@
+p{
+    font-style: italic;
+    font-weight: 100px;
+}
+#add{
+    color: rgb(5, 5, 73);
+    font-size: 30px;
+    margin-left: 25px;
+}
+
+img{
+    border: 10px double green;
+    margin-left: 50px;
+   
+}
+h1{
+    color: red;
+    margin: 25px;
+}
+#bg{
+    background-image: url('3.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#image img{
+    border: 10px solid white;
+    
+}
+table{
+    background-color: rgb(54, 33, 33);
+    color: white;
+    margin-left: 100px;
+}
+form{
+    background-color: lightblue;
+}
+input{
+    background-color: lightsalmon;
+    margin-left: 100px;
+}
+
+.square{
+    width:  100px;
+    height: 100px;
+    background-color: rgb(219, 6, 6);
+    transition: 2s;
+    transition-delay: 1px;
+    animation: mymove 2s infinite;
+ }
+    @keyframes mymove {
+    50%{transform: rotate(180deg);}
+ } 
+    
+.square:hover{  
+    width: 200px;
+    height: 200px; 
+    margin-left: 100px; 
+}
+    
+#btn{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+  }  
+  .forecast{
+    color: rgb(210, 213, 221);
+}
+
+p{
+    margin: 50px 100px;
+}
