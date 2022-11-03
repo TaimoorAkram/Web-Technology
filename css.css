@@ -9,12 +9,12 @@ p{
 }
 
 img{
-    border: 10px double green;
+    border: 10px double rgb(111, 10, 228);
     margin-left: 50px;
    
 }
 h1{
-    color: red;
+    color: rgb(0, 243, 53);
     margin: 25px;
 }
 #bg{
@@ -63,7 +63,7 @@ input{
     font-size: 25px;
   }  
   .forecast{
-    color: rgb(210, 213, 221);
+    color: rgb(9, 37, 112);
 }
 
 p{
