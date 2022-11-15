@@ -1,35 +1,111 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="script.js"></script>
-    <!-- <script src="scriptt.js"></script> -->
+    <script src="Jquery.js" ></script>
+    <title>JQuery Practice</title>
+</head>
+<body>
+    <h1>This is for the practice of JQuery</h1>
+    <button id="ad">Insert paragraph</button><br>
 
-    <title>Hello, world!</title>
-
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-
-    <img id="image" onclick="changeImage()" src="on.png" alt="off" width="200px" height="200px">
-    <p>Click on the BULB to turn ON and OFF</p>
+    <input type="number" id="one"><br>
+    <input type="number" id="two"><br>
+    <button id="addn">Add numbers</button>
+     
     <br><br>
-    <input type="text" name="" id="first"><br>
-    <input type="text" name="" id="second"><br>
-    <!-- <button type="button" id="btn" >Submit</button> -->
-    <button type="button" id="btn">Submit</button>
+    <img  src="ONbulb.jpg"  width="200" height="250">
+    <p>Click the light bulb to turn on/off the light.</p>
+    <button id="bbtn">click to hide bulb</button>
 
-    </script>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+<hr><br><br>
+<input type="number" id="first"><br>
+<input type="number" id="second"><br>
+<button id="pn">Print Numbers</button>
+<br><br><hr>
+
+
+<!-- ------------------------------------------------- -->
+
+<ul>
+    <li>Burger</li>
+    <li>Coke</li>
+    <li>Fries</li>
+    <li>Juice</li>
+</ul>
+
+
+<!-- --------------------Mouse events----------------------------- -->
+<div id="pg" style="background-color: rgb(40, 156, 79); border: 3px solid rgb(30, 14, 124);">
+    <h1>Mouse events</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum id, quae aperiam incidunt architecto dolor dolores quidem iste rerum eius ratione laboriosam? Eos, placeat error.</p>
+    
+</div>
+<br><br>
+<!-- <div id="pg1" style="background-color: rgb(118, 165, 134); border: 3px solid rgb(94, 44, 15);">
+    <h1>Keyboard events</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum id, quae aperiam incidunt architecto dolor dolores quidem iste rerum eius ratione laboriosam? Eos, placeat error.</p>
+     -->
+
+     <br><br>
+     <form action="" id="sform">
+     <h1>Forn Events</h1>
+     <label for="">Name: </label><input type="email" id="sname"><br><br>
+     <label for="">Class: </label><input type="text" id="sclass"><br><br>
+     <label for="">Country</label>
+     <select id="scountry">
+        <option value="Pakistan">Pakistan</option>
+        <option value="Bangladaish">Bangladaish</option>
+        <option value="Sirilanka">Sirilanka</option>
+     </select>
+    <br><br>
+     <input type="submit" id="sbtn">
+     
+ </form><button id="ss">submit</button>
+     <div id="bor" style="border: 4px solid orange ; height: 80px; width: 100px;"></div>
+</div><br><br>
+
+<div id="box" style="border: 4px solid blue ; height: 150px; width: 800px; background-color: aqua;">
+    <h1>Text Box</h1>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aspernatur non maiores sit veniam, repellendus exercitationem minus a! Inventore doloribus, dolor fugiat laudantium laboriosam similique.</p> 
+</div>
+<br><br>
+<div id="boxx" class="test abc" style="border: 4px solid rgb(9, 9, 26) ; height: 150px; width: 800px; background-color: rgba(176, 218, 28, 0.89);">
+    <h1>Text Box 2</h1>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aspernatur non maiores sit veniam, repellendus exercitationem minus a! Inventore doloribus, dolor fugiat laudantium laboriosam similique.</p> 
+</div>
+
+<form action="" id="s2form">
+    <h1>Val method</h1>
+    <label for="">Name: </label><input type="text" id="s2name"><br><br>
+    <label for="">Class: </label><input type="text" id="s2class"><br><br>
+    <label for="">Country</label>
+    <select id="s2country">
+       <option value="Pakistan">Pakistan</option>
+       <option value="Bangladaish">Bangladaish</option>
+       <option value="Sirilanka">Sirilanka</option>
+    </select>
+   <br><br>
+    <input type="submit" id="s2btn">
+</form>
+<br><br>
+<div id="box3"  style="border: 4px solid rgb(206, 58, 58) ; height: 160px; width: 800px; background-color: rgba(196, 163, 20, 0.89);">
+    <h1>Text Box 3</h1>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aspernatur non maiores sit veniam, repellendus exercitationem minus a! Inventore doloribus, dolor fugiat laudantium laboriosam similique.</p> 
+   <button id="clickbtn" style=" height: 15% ; width: 15%; color: white; background-color:rgb(184, 58, 58);">Set text</button>
+</div>
+
+
+
+
+
+
+
+
+<script src="Jquery.js" ></script>
+</body>
 </html>
